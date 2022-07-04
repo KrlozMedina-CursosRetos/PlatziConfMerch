@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <Products products={initialState.products} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

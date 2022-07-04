@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import '../styles/components/Layout.css';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <div className='Main'>
+    <div className="Main">
       <Header />
-        {children}
+      {children}
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

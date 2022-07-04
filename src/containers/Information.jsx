@@ -3,22 +3,26 @@ import '../styles/components/Information.css';
 
 const Information = () => {
   return (
-    <div className='Information'>
+    <div className="Information">
       <div className="Information-content">
         <div className="Information-heah">
           <h2>Informacion de contacto</h2>
         </div>
         <div className="Information-form">
           <form action="">
-            <input type="text" placeholder='Nombre completo' name='name' />
-            <input type="text" placeholder='Correo electronico' name='email' />
-            <input type="text" placeholder='Direccion' name='address' />
-            <input type="text" placeholder='Apto' name='apto' />
-            <input type="text" placeholder='Ciudad' name='city' />
-            <input type="text" placeholder='Pais' name='country' />
-            <input type="text" placeholder='Estado / Departamento' name='state' />
-            <input type="text" placeholder='Codigo postal' name='cp' />
-            <input type="text" placeholder='Telefono' name='phone' />
+            <input type="text" placeholder="Nombre completo" name="name" />
+            <input type="text" placeholder="Correo electronico" name="email" />
+            <input type="text" placeholder="Direccion" name="address" />
+            <input type="text" placeholder="Apto" name="apto" />
+            <input type="text" placeholder="Ciudad" name="city" />
+            <input type="text" placeholder="Pais" name="country" />
+            <input
+              type="text"
+              placeholder="Estado / Departamento"
+              name="state"
+            />
+            <input type="text" placeholder="Codigo postal" name="cp" />
+            <input type="text" placeholder="Telefono" name="phone" />
           </form>
         </div>
         <div className="Information-buttons">
@@ -36,7 +40,7 @@ const Information = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Information
+export default Information;

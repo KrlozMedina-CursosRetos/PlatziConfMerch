@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/' //Raiz para que funcione el route
+    publicPath: '/', //Raiz para que funcione el route
   },
   resolve: {
     extensions: ['.js', '.jsx'],
