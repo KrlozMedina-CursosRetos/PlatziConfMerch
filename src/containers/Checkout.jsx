@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/Checkout.css';
 
 const Checkout = () => {
@@ -11,12 +12,17 @@ const Checkout = () => {
             <h4>Item name</h4>
             <span>$10</span>
           </div>
-          <button type="button">Eliminar</button>
+          <button type="button">
+            {/* Eliminar */}
+            <i class="fa-solid fa-trash fas"></i>
+          </button>
         </div>
       </div>
       <div className="Checkout-sidebar">
         <h3>Precio total: $10</h3>
-        <button type="button">Continuar pedido</button>
+        <Link to="/Checkout/Information">
+          <button type="button">Continuar pedido</button>
+        </Link>
       </div>
     </div>
   );
