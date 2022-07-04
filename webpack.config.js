@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/' //Raiz para que funcione el route
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -61,7 +62,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true, //Para que funcione route
     // contentBase: path.join(__dirname, 'dist'),
     static: {
       directory: path.join(__dirname, 'dist'),
